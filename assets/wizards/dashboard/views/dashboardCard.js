@@ -9,7 +9,6 @@ import { Component } from '@wordpress/element';
 import {
 	chartBar,
 	help,
-	lifesaver,
 	megaphone,
 	postComments,
 	plugins,
@@ -36,7 +35,6 @@ class DashboardCard extends Component {
 			syndication: rss,
 			analytics: chartBar,
 			seo: search,
-			'health-check': lifesaver,
 			engagement: postComments,
 			popups: megaphone,
 			support: help,
