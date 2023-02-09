@@ -9,7 +9,6 @@ import { Component } from '@wordpress/element';
 import {
 	chartBar,
 	help,
-	plugins,
 	search,
 	stretchWide,
 	typography,
@@ -32,7 +31,6 @@ class DashboardCard extends Component {
 			analytics: chartBar,
 			seo: search,
 			support: help,
-			connections: plugins,
 		};
 		return (
 			<ButtonCard
